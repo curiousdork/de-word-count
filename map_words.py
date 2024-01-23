@@ -1,7 +1,5 @@
-def map_words():
-    """
-    This is a placeholder function named 'map'. Currently, it doesn't perform any operations.
-
-    The function can be expanded to include desired functionality in the future.
-    """
-    pass
+def map_words(words):
+    mapped_words = []
+    for word in words:
+        mapped_words.append((word, 1))
+    return mapped_words
